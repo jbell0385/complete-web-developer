@@ -1,0 +1,25 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav a {
+  font-size: 18px;
+  margin: 5px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
