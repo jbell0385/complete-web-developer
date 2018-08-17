@@ -14,6 +14,9 @@ img {
 
 .hero {
   position: relative;
+  width: 100%;
+  height: auto;
+  border: 1px solid white;
 }
 
 .hero-heading {
@@ -21,4 +24,17 @@ img {
   top: 13%;
   left: 43%;
   color: white;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+}
+
+.btn-signup {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 71%;
+  left: 50%;
 }
