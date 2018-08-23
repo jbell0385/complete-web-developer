@@ -1,4 +1,11 @@
-const name = prompt('What is my name?');
-if (name === 'Billy' || name === 'Susy') {
-  alert('hi Billy');
-}
+var todos = [
+  "clean room",
+  "brush teeth",
+  "exercise",
+  "study javascript",
+  "eat healthy!"
+];
+
+todos.forEach(function(i){
+  console.log(i);
+})
